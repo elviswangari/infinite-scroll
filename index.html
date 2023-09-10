@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
+    <title>Infinite scroll</title>
     <link rel="icon" type="image/png" href="favicon.png">
     
     <!-- Old Favicon - Grab Icon From Google (Might be unsupported in the future) -->
@@ -13,6 +13,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1>INFINITE SCROLL - from API</h1>
+
+    <!-- loader -->
+    <div class="loader" id="loader" hidden>
+        <img src="loader.svg" alt="Loader">
+    </div>
+
+    <!-- image container -->
+    <div class="image-container" id="image-container">
+    </div>
     <!-- Script -->
     <script src="script.js"></script>
 </body>
